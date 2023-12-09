@@ -1,0 +1,5 @@
+ID: 1, Date: 04.03.2023, Counterparty: ООО Рога и Копыта, SubjectOftheContract: Поставка мяса, Price: 45000,080000, CategoryContract: Расходный.
+ID: 2, Date: 19.02.2023, Counterparty: АО ЭнергоСбыт, SubjectOftheContract: Поставка электроэнергии, Price: 523000,430000, CategoryContract: Расходный.
+ID: 3, Date: 13.05.2023, Counterparty: ООО СтройКам, SubjectOftheContract: Поставка строительный материалов, Price: 5004302,980000, CategoryContract: Расходный.
+ID: 4, Date: 24.05.2023, Counterparty: ГАУ МедЦентр, SubjectOftheContract: Поставка медицинского оборудования, Price: 2144000,680000, CategoryContract: Доходный.
+ID: 5, Date: 06.07.2023, Counterparty: ООО Рога и Копыта, SubjectOftheContract: Поставка рыбы, Price: 29000,980000, CategoryContract: Расходный.
