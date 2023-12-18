@@ -1,11 +1,11 @@
-package MyProgramm.operations;
+package MyProgramm.security;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
 import MyProgramm.console.ConsoleLine;
-import MyProgramm.security.LoginConnect;
+
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 
@@ -15,7 +15,6 @@ public class LoginToTheApplication {
     public static int loginAndPasswordVerification() throws ParseException, Exception{
         int result = 0;
         LoginConnect loginConnect = new LoginConnect(null, null);
-        System.out.println("Добрый день пользователь!");
         System.out.println("Введите логин: ");
         loginConnect.setLogin(consoleLine.getString());
         System.out.println("Введите пароль: ");

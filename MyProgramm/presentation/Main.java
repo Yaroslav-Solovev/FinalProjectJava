@@ -2,7 +2,7 @@ package MyProgramm.presentation;
 
 import MyProgramm.console.ConsoleView;
 import MyProgramm.data.Menu;
-import MyProgramm.operations.LoginToTheApplication;
+import MyProgramm.security.LoginToTheApplication;
 
 
 public class Main { //** Класс определяющий запуск программы*/
@@ -13,7 +13,6 @@ public class Main { //** Класс определяющий запуск про
         int result = 1;
         while (result != 0){
             result = LoginToTheApplication.loginAndPasswordVerification();
-            System.out.println("Логин и пароль введены неверно.");
         }
         new Menu().start();
         //long end = System.nanoTime();
