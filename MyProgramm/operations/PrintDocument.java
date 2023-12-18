@@ -16,7 +16,7 @@ public class PrintDocument {
         String fileName = "MyProgramm/Save/document.txt";
         ArrayList<Document> documents = enterBase.printDocuments();
         for (int i = 0; i < documents.size(); i++) { //** Присваивание файлу названия в виде наименования документа */
-            fileName = fileName.replace("file", documents.get(i).getTitle()); 
+            fileName = fileName.replace("document", documents.get(i).getTitle()); 
         }
 
         try (FileWriter file = new FileWriter(fileName, StandardCharsets.UTF_8)) { //** Запись данных в файл инфы по документам + с функцией дозаписи вслучае одинаковых наименований документов */

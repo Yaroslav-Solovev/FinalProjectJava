@@ -16,7 +16,7 @@ public class PrintControlDocument {
         String fileName = "MyProgramm/Save/controlDocument.txt";
         ArrayList<ControlDocument> controlDocuments = enterBase.printСontrolDocuments();
         for (int i = 0; i < controlDocuments.size(); i++) { //** Присваивание файлу названия в виде наименования документа */
-            fileName = fileName.replace("file", controlDocuments.get(i).getTitle()); 
+            fileName = fileName.replace("controlDocument", controlDocuments.get(i).getTitle()); 
         }
 
         try (FileWriter file = new FileWriter(fileName, StandardCharsets.UTF_8)) { //** Запись данных в файл инфы по документам + с функцией дозаписи вслучае одинаковых наименований документов */

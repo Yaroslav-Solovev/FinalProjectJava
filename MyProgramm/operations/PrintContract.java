@@ -17,7 +17,7 @@ public class PrintContract {
         String fileName = "MyProgramm/Save/contract.txt";
         ArrayList<Contract> contracts = enterBase.printContracts();
         for (int i = 0; i < contracts.size(); i++) { //** Присваивание файлу названия в виде контрагента */
-            fileName = fileName.replace("file", contracts.get(i).getСounterparty()); 
+            fileName = fileName.replace("contract", contracts.get(i).getСounterparty()); 
         }
 
         try (FileWriter file = new FileWriter(fileName, StandardCharsets.UTF_8)) { //** Запись данных в файл инфы по договорам + с функцией дозаписи вслучае одинаковых контрагентов */
